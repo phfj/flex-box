@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+</head>
+<body>
+	<header>
+		<img src="html5-banner.jfif" width="100%" height="300px">
+		<h2>Login</h2>
+	</header>
+	<br>
+	<hr>
+	<nav>
+		<a href="index.html">Home</a><br>
+		<a href="about.html">About Us</a><br>
+		<a href="register.html">Register</a>
+	</nav>
+	<hr>
+	<br>
+	<!--Use GET, not POST-->
+	<div>
+		<form method="GET" action="">
+			First Name: <input type="text" name="firstname"><br><br>
+			Last Name: <input type="text" name="lastname"><br><br>
+			Email: <input type="email" name="email" required><br><br>
+			Passward: <input type="password" name="password" min="5"><br><br>
+			Birthday: <input type="date" name="birthday"><br><br>
+			Gender: <br>
+			<input type="radio" name="gender" value="Male">Male<br>
+			<input type="radio" name="gender" value="Female">Female<br><br>
+			What level best describes you for this course:<br>
+			<input type="checkbox" name="beginner">Beginner<br>
+			<input type="checkbox" name="intermedidate">Intermedidate (I know a bit of HTML)<br>
+			<input type="checkbox" name="experinced">Experinced (have at least 1-year of experience working for someone or running a web-design business)<br><br>
+			Learning Type:
+			<select name="cars">
+				<option value="visual">Visual</option>
+				<option value="auditory">Auditory</option>
+				<option value="read&write">Read & Write</option>
+				<option value="kinaesthetic">Kinaesthetic</option>
+			</select><br><br>
+			<input type="submit" value="Register!">
+			<input type="reset"> 
+		</form>
+	</div>
+	<br>
+	<hr>
+	<footer>
+		Copyright &copy; 2023
+	</footer>
+</body>
+</html>
