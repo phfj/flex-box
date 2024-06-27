@@ -1,6 +1,6 @@
 # CSS flex-box Layout Module
 
-Before the Flexbox Layout module, ther was four layout modes:
+Before the Flexbox Layout module, there were four layout modes:
   - Block, for sections in a webpage
   - Inline, for text
   - Table, for 2-dimensional table data
